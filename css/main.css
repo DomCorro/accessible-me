@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(40, 40, 40);
   margin: 0;
   padding: 0;
 }
@@ -10,8 +10,29 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+label,
+b,
+.skip {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  color: white;
+}
+
+p,
+li,
+form button,
+input,
+.site-footer {
+  color: white;
+}
+
+.skip {
+  color: rgb(40, 40, 40);
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 1rem;
 }
 
 .container {
@@ -61,7 +82,7 @@ form textarea {
 
 form button {
   background: none;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   padding: 1rem;
   text-transform: uppercase;
 }
